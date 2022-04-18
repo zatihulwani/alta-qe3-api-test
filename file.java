@@ -1,7 +1,8 @@
+import org.junit.Before;
+
 public class file {
 
-    @ParameterType(".*")
-    public Actor actor(String actorName) {
+    public actor(String actorName) {
         return OnStage.theActorCalled(actorName);
     }
 
